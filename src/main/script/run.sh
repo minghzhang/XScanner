@@ -1,0 +1,1 @@
+java --module-path /Users/landon.zhang/Documents/javafx/javafx-sdk-11/lib  --add-modules javafx.controls,javafx.fxml,javafx.graphics -jar /Users/landon.zhang/Documents/SourceCode/opensource/XScanner/out/artifacts/XScanner_jar/XScanner.jar  -Dfile.encoding=UTF-8
