@@ -1,6 +1,6 @@
 package com.louis.xscanner.util;
 
-//import net.sourceforge.tess4j.Tesseract;
+import net.sourceforge.tess4j.Tesseract;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -9,7 +9,6 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 
 /**
- * @author : landon
  * @date : 2021/10/15
  */
 public class TesseractAPI {
@@ -23,7 +22,7 @@ public class TesseractAPI {
      * @param ZH_CN   是否使用中文训练字库,true-是
      * @return 识别结果
      */
-   /* public static String FindOCR(String srImage, boolean ZH_CN) {
+    public static String FindOCR(String srImage, boolean ZH_CN) {
         try {
             double start = System.currentTimeMillis();
             File imageFile = new File(srImage);
@@ -50,5 +49,5 @@ public class TesseractAPI {
             e.printStackTrace();
             return "发生未知错误";
         }
-    }*/
+    }
 }

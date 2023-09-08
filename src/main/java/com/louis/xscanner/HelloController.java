@@ -92,8 +92,8 @@ public class HelloController {
         String imageUrl = imageView.getImage().getUrl();
         //String imageUrl = imageView.getImage().impl_getUrl();
         String fileUrl = imageUrl.substring(5);
-        //String content = TesseractAPI.FindOCR(fileUrl, true);
-        //contentTextArea.setText(content);
+        String content = TesseractAPI.FindOCR(fileUrl, true);
+        contentTextArea.setText(content);
     }
 
     public static void main(String[] args) {

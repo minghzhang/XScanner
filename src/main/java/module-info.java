@@ -2,7 +2,7 @@ module XScanner {
     requires javafx.controls;
     requires javafx.fxml;
     requires java.desktop;
-    //requires tess4j;
+    requires tess4j;
     //requires logback.core;
     //requires logback.classic;
     requires org.slf4j;
